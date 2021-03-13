@@ -15,13 +15,14 @@
 
     for ($i = 0; $i < $panjangData; $i++) {
         // for ($j = 0; $j < 1; $j++) {
+
         $j = 0;
         $tambah = $i * 3;
         while ($j <= $tambah) {
-            echo ;
+            echo ("_");
             $j++;
         }
-        echo &nbsp;
+        echo substr($kata, $i, 1) . "<br>";
     }
 
     ?>
